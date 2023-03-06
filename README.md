@@ -1,4 +1,4 @@
-# tiny-soup
+# Irioshi
 ELK Project
 ## Automated ELK Stack Deployment
 
