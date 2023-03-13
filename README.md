@@ -28,6 +28,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly responsive, in addition to restricting access to the network.
 
 - What aspect of security do load balancers protect? What is the advantage of a jump box?
+
 Load balancers mainly serve to protect organizations against distributed denial-of-service, or DDoS attacks. They do this by evenly 
 distributing web traffic amongst multiple servers and enabling threat intelligence based filerting at the firewall, alerting when malicious 
 IP addresses are attempting communication. Load balancers are typically placed behind the firewall or router, balancing the
@@ -41,7 +42,8 @@ Additionally, load balancers provide support such as, (but not limited to):
 	- tools that allow monitoring for resource configurations and modifications to internal resources
 
 - What is the advantage of a jump box?
-The advantage of having a jump box is an increased level of security. It servers as a gateway, or bridge, between two network zones and enables
+
+The advantage of having a jump box is an increased level of security. It serves as a gateway, or bridge, between two network zones and enables
 access and mangement of the devices located in the VM. To prevent public exposure of the VM, the public IP addfress can refuse connection, adding 
 a layer of protection to the VM itself.
 
@@ -89,8 +91,9 @@ Ansible doesn't require coding on any level to use or create the playbooks. It n
 many servers at a time, updating programs, automating tasks and create environments regardless of its placement.
 
 - What is the main advantage of automating configuration with Ansible?
+
 Ansible automates IT environments hosted in several environments such as bare metal machines, virtual platforms or cloud based services. 
-It's capable of configuring devices such as databases, networks, firewalls and databases.
+It's capable of configuring devices such as networks, firewalls and databases.
 
 The playbook implements the following tasks:
 - Uses the following modules:
@@ -106,7 +109,7 @@ _*Refer to ELK docker within /Diagrams/Images*_
 
 
 ### Target Machines & Beats
-This ELK server is configured to monitor the following machines:
+This ELK is configured to monitor the following machines:
 - Web-1/DVWA 1 - 10.0.0.5
 - Web-2/DVWA 2 - 10.0.0.6
 
